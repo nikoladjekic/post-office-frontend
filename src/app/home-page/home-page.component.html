@@ -1,1 +1,11 @@
-<p>home-page works!</p>
+<div class="header">
+    <h1>Welcome to Post Office admin tool</h1>
+    <button mat-raised-button routerLink="/shipments">Shipments</button>
+    <button mat-raised-button routerLink="/offices">Post Offices</button>
+</div>
+
+<mat-divider></mat-divider>
+
+<div class="routes-container">
+    <router-outlet></router-outlet>
+</div>
