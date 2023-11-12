@@ -1,4 +1,4 @@
 export interface ShipmentWeights {
-    id: string,
+    id: number,
     desc: string,
 }
