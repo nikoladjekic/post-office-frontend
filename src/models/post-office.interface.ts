@@ -1,5 +1,5 @@
 export interface PostOffice {
     id: string,
-    zip: number,
+    PLZ: number,
     name: string,
 }
