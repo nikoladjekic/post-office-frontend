@@ -9,7 +9,7 @@ import { ShipmentService } from 'src/services/shipment.service';
 })
 export class ShipmentsComponent implements OnInit {
   allShipments: Shipment[] = [];
-  tableColumns: string[] = ['type', 'origin', 'destination', 'delivered', 'weight', 'office'];
+  tableColumns: string[] = ['id', 'type', 'origin', 'destination', 'delivered', 'weight', 'office'];
 
   constructor(private _shipments: ShipmentService) { }
 
